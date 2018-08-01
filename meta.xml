@@ -1,0 +1,7 @@
+<meta>
+	 <info author="TioSmoke" type="misc" name="Headshot for dayz" />
+	<script src='server.lua' type='server' />
+	<script src="client.lua" type="client"/>
+	<file src="headshot.mp3" />
+	<file src="helmet.mp3" />
+</meta>

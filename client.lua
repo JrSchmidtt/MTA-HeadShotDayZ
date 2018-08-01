@@ -1,0 +1,11 @@
+addEvent("play_headshot",true)
+addEventHandler("play_headshot",localPlayer(),function()
+	isheadshot = playSound("headshot.mp3")
+	setSoundVolume(isheadshot, 0.5)
+end)
+
+addEvent("play_helmet",true)
+addEventHandler("play_helmet",localPlayer(),function()
+	ishelmet = playSound("helmet.mp3")
+	setSoundVolume(ishelmet, 0.5)
+end)
